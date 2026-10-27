@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Data & Models (DVC)
+/data/raw/*
+!/data/raw/.gitignore
+/data/processed/*
+/data/features/*
+/models/*
+!/models/.gitignore
+
+# DVC
+.dvc/config.local
+.dvc/tmp
+.dvc/cache
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
