@@ -30,11 +30,11 @@
 └── .pre-commit-config.yaml
 ```
 
-## Быстрый старт (в Colab)
+## Старт (Colab)
 
-1. Загрузите проект в свой GitHub и подключите DagsHub.
-2. Откройте `notebooks/lr1_data_and_pipeline.ipynb` в Google Colab.
-3. Запустите все ячейки сверху вниз.
+1. Загружаем проект в GitHub и подключаем DagsHub.
+2. Открываем `notebooks/lr1_data_and_pipeline.ipynb` в Google Colab.
+3. Запускаем все ячейки.
 
 ## Воспроизведение
 
@@ -49,4 +49,4 @@ dvc pull
 dvc repro
 ```
 
-Метрики смотрите в `reports/metrics.json`.
+Метрики `reports/metrics.json`.
